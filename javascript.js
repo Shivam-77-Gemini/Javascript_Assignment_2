@@ -178,6 +178,8 @@ function addData(){
             const dataNode3=document.createTextNode(localStorage.getItem("Phone"));
             data3.append(dataNode3);
             row.append(data3);
+            document.getElementById("form1").reset();
+            
     
 }
 
